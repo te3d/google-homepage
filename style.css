@@ -1,0 +1,63 @@
+.main {
+	background-color: blue;
+}
+
+.content {
+	background-color: white;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image {
+	background-color: green;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.search-form {
+	background-color: purple;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.footer {
+	background-color: gray;
+}
+
+.header {
+	background-color: gray;
+}
+
+.search-bar {
+	
+}
+
+.right-link {
+	float: right;
+}
+
+
+a:link {
+	color: lightgray;
+	text-decoration: none;
+	padding-right: 1em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+	color: lightgray;
+}
