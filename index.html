@@ -1,59 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<title>Google</title>
+		<title>Google clone</title>
 		<link rel="stylesheet" type="text/css" href="style.css"> 
 	</head>
 
 	<body>
-		<div class="main">
-			<p> this is the main class </p>
+		<nav class="nav-top">
+				<a href="http://www.mail.google.com" class="gmail">Gmail</a>
+				<a href="#" class="images">Images</a>
+				<img src="./images/google-app.png" id="apps">
+				<button type="button" id="btn-signin">Sign In</button>
+		</nav>
+		<main class="main">
 			
-			<div class="header">
-				<p>this is the header</p>
-				<a href="#">About</a>
-				<a href="#">Store</a>
-
-				<a href="#" class="right-link">Gmail</a>
-				<a href="#" class="right-link">Images</a>
+			<div class="main-logo">
+				<img alt="google logo" height="200" src="./images/google-logo.jpg">
 			</div>
-
-			<div class="content">
-				<p> this is the content class </p>
-				<div class="image">
-					<p> this is the image class</p>
-					<img alt="google image" border = "0" height="200" src="./images/logo.png">
-				</div>
-
-				<div class="search-form">
-					<p> this is the search-form class</p>
-					<div class="search-bar">
-						<form>
-							<p><input type="text"></p>
-							<p><input type="submit" value="Google search">
-							<input type="submit" value="I'm feeling lucky"></p>
-						</form>
-					</div>
-					<div class="search-buttons">
-					</div>
-
-				</div>
+			<div>
+				<form>
+					<input type="text" class="search-bar" value="The Odin Project">			
+				</form>
 			</div>
-
-			
-
+			<div class="search-btns">
+					<button type="button" class="goog-btn">Google Search</button>
+					<button type="button" class="lucky-btn">I'm feeling lucky</button>
+			</div>
+		</main>
+		<footer>
 			<div class="footer">
-				<p>this is the footer class</p>
-				<a href="#">Advertising</a>
-				<a href="#">Business</a>
-				<a href="#" class="right-link">Privacy</a>
-				<a href="#" class="right-link">Terms</a>
-				<a href="#" class="right-link">Settings</a>
+				<a class="fleft" href="#">Advertising</a>
+				<a class="fleft" href="#">Business</a>
+				<a class="fright" href="#">Privacy</a>
+				<a class="fright" href="#">Terms</a>
+				<a class="fright" href="#">Settings</a>
 			</div>
-
-		</div>
-
-
-
+		</footer>
 	</body>
 </html>
